@@ -19,28 +19,130 @@
 	<div id="side"> </div>
 	<div class="practicearea">
 		<div class="practice">
-			<h2>August 26 practice</h2>
-			
-         
+			<h3>August 26 Practice</h3>
+			<!-- Inline elements -->
+			<img src="" alt="">
+			<strong>Strong text example</strong>
+			<br>
+
+			<!-- Basic structure practice -->
+			<p>This is a paragraph.</p>
+			<h1>Main Heading</h1>
+			<h2>Subheading</h2>
+
+			<!-- Lists -->
+			<ul>
+				<li>Inline elements</li>
+				<li>Block elements</li>
+				<li>Paragraphs</li>
+			</ul>
+		</div>
+		
+
+
+		<div class="practice">
+			<h2> Aug 31 practice </h2>
+			<!-- Basic hyperlink -->
+  			<a href="#">Example link</a>
+
+			<!-- Required in-class practice -->
+			<p><a href="https://blackboard.sc.edu" target="_blank">Open Blackboard</a></p>
+			<p><a href="imageMap.html">Go to Image Map Example</a></p>
+
+			<!-- Optional -->
+			<p><a href="mailto:yilianz@usca.edu">Email Professor Zhang</a></p>
+			<p><a href="#contact">Jump to Contact Section</a></p>
+
+			<h3>id="contact">Contact Section</h3>
+			<p>This is the contact section.</p>
+						
+		
 		</div>
 
 
 		<div class="practice">
+			<h3>September 2 Practice</h3>
 
-		</div>
+			<!-- Simple table -->
+			<table border="1">
+				<tr><td>td.1</td><td>td.2</td><td>td.3</td><td>td.4</td></tr>
+				<tr><td>td.1</td><td>td.2</td><td>td.3</td><td>td.4</td></tr>
+				<tr><td>td.1</td><td>td.2</td><td>td.3</td><td>td.4</td></tr>
+				<tr><td>td.1</td><td>td.2</td><td>td.3</td><td>td.4</td></tr>
+			</table>
 
+			<!-- Required complex table -->
+			<table border="1">
+				<caption>Temperature Distribution In Jan - Apr 2015 (ºF)</caption>
+				<tr>
+				<th>Month</th><th>High</th><th>Low</th><th>Average</th>
+				</tr>
+				<tr>
+				<td>January</td><td>48</td><td>36</td><td>40</td>
+				</tr>
+				<tr>
+				<td>February</td><td>49</td><td>37</td><td rowspan="2">43</td>
+				</tr>
+				<tr>
+				<td>March</td><td>52</td><td>39</td>
+				</tr>
+				<tr>
+				<td>April</td><td>58</td><td>43</td><td>47</td>
+				</tr>
+			</table>
+			</div>
 
 		<div class="practice">
+		<h3>September 9 Practice</h3>
 
+		<form action="fake.php">
 
+			<!-- Text input -->
+			<input type="text" name="username" maxlength="10">
+
+			<!-- Checkboxes -->
+			<p>Choose the browser you use:</p>
+			<label><input type="checkbox" name="browser" value="Firefox">Firefox</label>
+			<label><input type="checkbox" name="browser" value="Google">Google</label>
+			<label><input type="checkbox" name="browser" value="Safari">Safari</label>
+
+			<!-- Radio buttons -->
+			<p>Which social media do you prefer:</p>
+			<label><input type="radio" name="social" value="Discord">Discord</label>
+			<label><input type="radio" name="social" value="Twitter">Twitter</label>
+			<label><input type="radio" name="social" value="Instagram">Instagram</label>
+
+			<!-- Select list -->
+			<p>Select your favorite color:</p>
+			<select name="favorite" size="3" multiple>
+			<option value="r">Red</option>
+			<option value="b">Blue</option>
+			<option value="y">Yellow</option>
+			</select>
+
+			<!-- Button with image -->
+			<p>
+			<button>
+				<img src="img/puppy.jpg" alt="puppy"> Puppy
+			</button>
+			<input type="hidden" name="default" value="111">
+			<input type="button" name="nice" value="background">
+			</p>
+
+			<!-- Label + input -->
+			<p>
+			<input type="text" name="n1" value="name">
+			<label for="n1">Enter your name:</label>
+			</p>
+
+			<!-- Phone number with pattern -->
+			<p>Phone number</p>
+			<input type="tel" name="phone" placeholder="xxx-xxx-xxxx"
+				pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+
+		</form>
 		</div>
 
-		<div class="practice">
-
-
-		</div>
-
-	</div>
 
 	<script type="text/javascript" src="index.js"></script>
 </body>
